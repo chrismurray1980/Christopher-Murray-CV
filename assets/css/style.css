@@ -41,7 +41,6 @@ h4 {
 
 .general-sub {
     font-family: "Exo", sans-serif;
-
     color: #fafafa;
 }
 
@@ -50,7 +49,7 @@ h4 {
 }
 
 .section-column{
-    padding: 0;
+    padding: 0 30px 30px;
     float: none;
     display: table-cell;
 }
@@ -66,8 +65,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-    
-}
+
 
 /*----------------------------------------heading*/
 
@@ -205,3 +203,4 @@ footer .cv-pdf i:hover {
 #footer-details{
     margin:20px;
 }
+

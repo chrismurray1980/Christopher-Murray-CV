@@ -11,15 +11,15 @@
 }
 
 .ui-menu-color-home {
-    background-color: #ce9e9c;
+    background-color: #caafae;
 }
 
 .ui-menu-color-resume {
-    background-color: #95c1de;
+    background-color: #a6c5da;
 }
 
 .ui-menu-color-contact {
-    background-color: #c9a3d8;
+    background-color: #c2abcc
 }
 
 .ui-menu-color-download {
@@ -27,11 +27,11 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f6f1f1;
+    background-color: #8e8c8c;
 }
 
 .bg-color-employment-history {
-    background-color: #f6f1f1;
+    background-color: #9c9999;
 }
 
 .bg-color-contact {
@@ -54,11 +54,13 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #9c9999;
+    color: #8e8c8c;
+    font-size:15px;
 }
 
 .inline-block {
     display: inline-block;
+    font-size:15px;
 }
 
 .row-table {
@@ -103,7 +105,7 @@ header {
     font-weight: 400;
     font-size: 50px;
     margin-top: 50px;
-    color: #9c9999;
+    color: #8e8c8c;
 }
 
 .title {
@@ -112,7 +114,7 @@ header {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #9c9999;
+    color: #8e8c8c;
 }
 
 #nav {
@@ -135,10 +137,10 @@ header {
     color: #ffffff;
     height: 120px;
     text-shadow:
-    -0.5px -0.5px 0 #000,
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000; 
+    -0.1px -0.1px 0 #000,
+    0.1px -0.1px 0 #000,
+    -0.1px 0.1px 0 #000,
+    0.1px 0.1px 0 #000;
 }
 
 .menuitem a i {
@@ -170,13 +172,13 @@ header {
 
 footer {
     background-color: #a2ccce;
-    color: #9c9999;
+    color: #8e8c8c;
     min-height: 120px;
     margin: 0;
 }
 
 footer .cv-pdf i {
-    color: #9c9999;
+    color: #8e8c8c;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
@@ -205,7 +207,7 @@ footer .cv-pdf i:hover {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #9c9999;
+    background: #8e8c8c;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -224,7 +226,7 @@ footer .cv-pdf i:hover {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #a2ccce;
 }
 
 .three-reasons-heading {
@@ -237,10 +239,15 @@ footer .cv-pdf i:hover {
 
 /*----------------------------------------personal-info*/
 
+.personal-info-heading{
+    color: #ffffff;
+}
+
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    color:#ffffff;
 }
 
 .personal-info-item .key p,
@@ -383,7 +390,7 @@ button[type="submit"] {
     }
     
     .bg-color-employment-history {
-    background-color: #82c5c2;
+    background-color: #8e8c8c;
     }
     
     .timeline-item {
